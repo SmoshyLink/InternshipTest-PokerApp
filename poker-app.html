@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poker App</title>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+    />
+    <link rel="stylesheet" href="poker-app.css" />
+  </head>
+  <body>
+    <ion-app>
+      <ion-content [fullscreen]="true">
+
+        <div id="highlight"></div>
+
+        <div id="player1-div">
+          <ion-img
+            class="player"
+            id="player1"
+            src="assets/images/player-1.png"
+          ></ion-img>
+        </div>
+
+        <div id="player2-div">
+          <ion-img
+            class="player"
+            id="player2"
+            src="assets/images/player-2.png"
+          ></ion-img>
+        </div>
+
+        <div id="player3-div">
+          <ion-img
+            class="player"
+            id="player3"
+            src="assets/images/player-3.png"
+          ></ion-img>
+        </div>
+
+        <div id="player4-div">
+          <ion-img
+            class="player"
+            id="player4"
+            src="assets/images/player-4.png"
+          ></ion-img>
+        </div>
+
+        <div>
+          <ion-img
+            id="player-turn"
+            src="assets/images/player name box.png"
+          ></ion-img>
+        </div>
+
+        <div>
+          <ion-img
+            class="arrows"
+            id="arrow-next"
+            src="assets/images/next button.png"
+          ></ion-img>
+        </div>
+
+        <div>
+          <ion-img
+            class="arrows"
+            id="arrow-prev"
+            src="assets/images/previous button.png"
+          ></ion-img>
+        </div>
+
+        <div>
+          <ion-label id="current-player"></ion-label>
+        </div>
+
+        <div id="popupDiv"></div>
+      </ion-content>
+    </ion-app>
+    <script src="poker-app.js"></script>
+  </body>
+</html>

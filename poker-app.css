@@ -1,0 +1,118 @@
+ion-content {
+  --background: url("assets/images/table+background.png") no-repeat center
+    center / cover;
+}
+
+#popup {
+  position: absolute;
+  background-color: #fff;
+  height: 32%;
+  width: 13%;
+  left: 45%;
+  top: 38%;
+  
+  clip-path: polygon(
+    0 0%,
+    10% 0,
+    70% 0,
+    100% 30%,
+    100% 100%,
+    100% 100%,
+    0% 100%,
+    0% 100%,
+    0 0
+  )
+}
+
+#popup-btn {
+  position: absolute;
+  border-radius: 10%;
+  height: 14%;
+  width: 45%;
+  background-color: black;
+  left: 31%;
+  top: 80%;
+  color: #fff;
+  font-size: small;
+}
+
+#popup-txt {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  font-size: large;
+  font-weight: bold;
+}
+
+#highlight-avatar {
+  border: 2.2rem solid yellow;
+  border-radius: 50%;
+  position: absolute;
+  
+}
+
+#highlight-name {
+  border-radius: 20%;
+  height: 2.4rem;
+  width: 4.4rem;
+  background-color: yellow;
+  position: absolute;
+  
+}
+
+.player {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+}
+
+#player1 {
+  top: 55%;
+  left: 7%;
+}
+
+#player2 {
+  bottom: 65%;
+  left: 8%;
+}
+
+#player3 {
+  left: 74%;
+  top: 15%;
+}
+
+#player4 {
+  left: 75%;
+  bottom: 23%;
+}
+
+#player-turn {
+  height: 17%;
+  width: 17%;
+  position: absolute;
+  left: 42.5%;
+  top: 3%;
+}
+
+.arrows {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 86%;
+}
+
+#arrow-next {
+  left: 51%;
+}
+
+#arrow-prev {
+  left: 41%;
+}
+
+#current-player {
+  position: absolute;
+  left: 46%;
+  top: 8%;
+  color: #000;
+  font-size: x-large;
+}
